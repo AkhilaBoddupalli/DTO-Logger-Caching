@@ -1,0 +1,49 @@
+"2019-08-19 09:47:04,090 INFO  [restartedMain] com.stackroute.muzicx.MuzicxApplication : Starting MuzicxApplication on akhila-IBM-WAVE7 with PID 5496 (/home/akhila/Desktop/mongo/SpringBootAssignement2MongoDB/target/classes started by akhila in /home/akhila/Desktop/mongo/SpringBootAssignement2MongoDB)
+""2019-08-19 09:47:04,094 INFO  [restartedMain] com.stackroute.muzicx.MuzicxApplication : No active profile set, falling back to default profiles: default
+""2019-08-19 09:47:04,282 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2019-08-19 09:47:04,282 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2019-08-19 09:47:06,299 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+""2019-08-19 09:47:06,303 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+""2019-08-19 09:47:06,376 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport : Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.stackroute.muzicx.repository.TrackRepository.
+""2019-08-19 09:47:06,377 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60ms. Found 0 repository interfaces.
+""2019-08-19 09:47:06,430 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+""2019-08-19 09:47:06,432 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+""2019-08-19 09:47:06,491 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59ms. Found 1 repository interfaces.
+""2019-08-19 09:47:07,329 INFO  [restartedMain] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ce605ec] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2019-08-19 09:47:07,436 INFO  [restartedMain] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$8c66531e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2019-08-19 09:47:07,960 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+""2019-08-19 09:47:08,008 INFO  [restartedMain] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+""2019-08-19 09:47:08,008 INFO  [restartedMain] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.21]
+""2019-08-19 09:47:08,151 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+""2019-08-19 09:47:08,230 INFO  [restartedMain] org.springframework.boot.web.servlet.RegistrationBean : Servlet webServlet was not registered (possibly already registered?)
+""2019-08-19 09:47:08,512 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+""2019-08-19 09:47:08,793 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+""2019-08-19 09:47:08,899 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2019-08-19 09:47:09,028 INFO  [restartedMain] org.hibernate.Version : HHH000412: Hibernate Core {5.3.10.Final}
+""2019-08-19 09:47:09,030 INFO  [restartedMain] org.hibernate.cfg.Environment : HHH000206: hibernate.properties not found
+""2019-08-19 09:47:09,306 INFO  [restartedMain] org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+""2019-08-19 09:47:09,529 INFO  [restartedMain] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2019-08-19 09:47:09,925 INFO  [restartedMain] org.hibernate.tool.schema.internal.SchemaCreatorImpl : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@13e116d9'
+""2019-08-19 09:47:09,929 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2019-08-19 09:47:09,970 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729
+""2019-08-19 09:47:10,450 INFO  [restartedMain] org.mongodb.driver.cluster : Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+""2019-08-19 09:47:10,451 INFO  [restartedMain] org.mongodb.driver.cluster : Adding discovered server localhost:27017 to client view of cluster
+""2019-08-19 09:47:10,624 INFO  [cluster-ClusterId{value='5d5a22c6faa41e157851d79f', description='null'}-localhost:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:1, serverValue:1}] to localhost:27017
+""2019-08-19 09:47:10,645 INFO  [cluster-ClusterId{value='5d5a22c6faa41e157851d79f', description='null'}-localhost:27017] org.mongodb.driver.cluster : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 11]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=5235951}
+""2019-08-19 09:47:10,647 INFO  [cluster-ClusterId{value='5d5a22c6faa41e157851d79f', description='null'}-localhost:27017] org.mongodb.driver.cluster : Discovered cluster type of STANDALONE
+""2019-08-19 09:47:11,562 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2019-08-19 09:47:12,087 INFO  [restartedMain] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+""2019-08-19 09:47:12,500 INFO  [restartedMain] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Context refreshed
+""2019-08-19 09:47:12,528 INFO  [restartedMain] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+""2019-08-19 09:47:12,546 INFO  [restartedMain] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner : Scanning for api listing references
+""2019-08-19 09:47:12,848 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+""2019-08-19 09:47:12,855 INFO  [restartedMain] com.stackroute.muzicx.MuzicxApplication : Started MuzicxApplication in 10.09 seconds (JVM running for 11.597)
+""2019-08-19 09:59:36,438 INFO  [Thread-8] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+""2019-08-19 09:59:36,462 INFO  [Thread-8] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+""2019-08-19 09:59:36,463 INFO  [Thread-8] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+""2019-08-19 09:59:36,558 INFO  [Thread-8] org.springframework.beans.factory.support.DisposableBeanAdapter : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-199]
+""2019-08-19 09:59:36,633 INFO  [Thread-8] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+""2019-08-19 09:59:36,703 INFO  [Thread-8] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
+"
