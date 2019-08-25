@@ -1,3 +1,2 @@
 # SpringBootAssignement2MongoDB
-
-Performing the spring boot muzix application crud operation with  mongo db database.
+Performing DTO,Logger and caching with muzix application
